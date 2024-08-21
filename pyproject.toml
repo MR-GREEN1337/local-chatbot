@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "local-chatbot"
+version = "0.1.0"
+description = ""
+authors = ["mr-green1337 <islam.hachimi2003@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langchain-ollama = "^0.1.1"
+langchain = "^0.2.14"
+langchain-core = "^0.2.33"
+langchain-community = "^0.2.12"
+ruff = "^0.6.1"
+chainlit = "^1.1.402"
+tiktoken = "^0.7.0"
+chromadb = "^0.5.5"
+docx2txt = "^0.8"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
